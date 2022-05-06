@@ -103,10 +103,10 @@ function nextGeneration(matrix){
 } 
 
 
-rl.on('close', function () {
-    process.exit(0);
-});
+ rl.on('close', function () {
+     process.exit(0);
+ });
 
 main();
 
-module.exports = Matrix;
+module.exports = {Matrix };
